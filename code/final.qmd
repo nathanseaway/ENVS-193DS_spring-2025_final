@@ -1,0 +1,34 @@
+---
+title: "final"
+format: html
+---
+
+https://github.com/nathanseaway/ENVS-193DS_spring-2025_final.git
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,        # show code
+  message = FALSE,    # hide messages
+  warning = FALSE,    # hide warnings
+  error = FALSE       # suppress errors in output
+)
+
+```
+
+```{r}
+knitr::opts_chunk$set(
+  echo = TRUE)
+library(tidyverse)
+library(here)
+library(gt)
+library(flextable)
+library(janitor)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+
+```
+
+
+```
+
