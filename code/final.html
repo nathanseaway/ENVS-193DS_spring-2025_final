@@ -79,18 +79,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#research-writing" id="toc-research-writing" class="nav-link active" data-scroll-target="#research-writing">1. Research writing</a>
+  <li><a href="#research-writing" id="toc-research-writing" class="nav-link active" data-scroll-target="#research-writing">1.Research writing</a>
   <ul class="collapse">
   <li><a href="#a." id="toc-a." class="nav-link" data-scroll-target="#a.">a.</a></li>
   <li><a href="#b." id="toc-b." class="nav-link" data-scroll-target="#b.">b.</a></li>
   <li><a href="#c." id="toc-c." class="nav-link" data-scroll-target="#c.">c.</a></li>
   </ul></li>
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">2. Data visualization</a>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">2.Data visualization</a>
   <ul class="collapse">
   <li><a href="#a.-1" id="toc-a.-1" class="nav-link" data-scroll-target="#a.-1">a.</a></li>
   <li><a href="#b.-1" id="toc-b.-1" class="nav-link" data-scroll-target="#b.-1">b.</a></li>
   </ul></li>
-  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">3. Data analysis</a>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">3.Data analysis</a>
   <ul class="collapse">
   <li><a href="#a.-2" id="toc-a.-2" class="nav-link" data-scroll-target="#a.-2">a.</a></li>
   <li><a href="#b.-2" id="toc-b.-2" class="nav-link" data-scroll-target="#b.-2">b.</a></li>
@@ -101,12 +101,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#g." id="toc-g." class="nav-link" data-scroll-target="#g.">g.</a></li>
   <li><a href="#h." id="toc-h." class="nav-link" data-scroll-target="#h.">h.</a></li>
   <li><a href="#i." id="toc-i." class="nav-link" data-scroll-target="#i.">i.</a></li>
-  </ul></li>
-  <li><a href="#j." id="toc-j." class="nav-link" data-scroll-target="#j.">j.</a>
-  <ul class="collapse">
+  <li><a href="#j." id="toc-j." class="nav-link" data-scroll-target="#j.">j.</a></li>
   <li><a href="#k." id="toc-k." class="nav-link" data-scroll-target="#k.">k.</a></li>
   </ul></li>
-  <li><a href="#affective-and-exploratory-visualizations" id="toc-affective-and-exploratory-visualizations" class="nav-link" data-scroll-target="#affective-and-exploratory-visualizations">4. Affective and exploratory visualizations</a>
+  <li><a href="#affective-and-exploratory-visualizations" id="toc-affective-and-exploratory-visualizations" class="nav-link" data-scroll-target="#affective-and-exploratory-visualizations">4.Affective and exploratory visualizations</a>
   <ul class="collapse">
   <li><a href="#a.-3" id="toc-a.-3" class="nav-link" data-scroll-target="#a.-3">a.</a></li>
   </ul></li>
@@ -134,6 +132,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p>Nathan Seaway</p>
+<p>June 11, 2025</p>
 <p>https://github.com/nathanseaway/ENVS-193DS_spring-2025_final.git</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
@@ -153,7 +153,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(MuMIn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="research-writing" class="level2">
-<h2 class="anchored" data-anchor-id="research-writing">1. Research writing</h2>
+<h2 class="anchored" data-anchor-id="research-writing">1.Research writing</h2>
 <section id="a." class="level3">
 <h3 class="anchored" data-anchor-id="a.">a.</h3>
 <p>In part 1, they used a pearson’s r, and in part 2 they used an analysis of variance.</p>
@@ -173,7 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 <section id="data-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="data-visualization">2. Data visualization</h2>
+<h2 class="anchored" data-anchor-id="data-visualization">2.Data visualization</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sst <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../data/SST.csv"</span>) <span class="co">#reads csv files </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -201,11 +201,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <pre><code># A tibble: 5 × 3
   year  month mean_monthly_sst
   &lt;fct&gt; &lt;ord&gt;            &lt;dbl&gt;
-1 2019  Feb               14.1
-2 2020  Jun               15.9
-3 2022  Apr               13.3
-4 2019  Oct               17.1
-5 2022  Jul               17.0</code></pre>
+1 2018  Sep               18.2
+2 2018  Jul               18.2
+3 2020  Sep               18.7
+4 2023  Jul               16.3
+5 2022  Apr               13.3</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(sst_clean) <span class="co">#shows data frame</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -264,7 +264,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 <section id="data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="data-analysis">3. Data analysis</h2>
+<h2 class="anchored" data-anchor-id="data-analysis">3.Data analysis</h2>
 <section id="a.-2" class="level3">
 <h3 class="anchored" data-anchor-id="a.-2">a.</h3>
 <p>The 1s and 0s refer to the binary response variable of either the boxes being designated that value: swift parrot, common starling, empty, or tree martin or not having that variable. So for each observation one of those variables is a 1 and the other are 0.</p>
@@ -444,9 +444,8 @@ model0_sp  2 245.0324</code></pre>
 <h3 class="anchored" data-anchor-id="i.">i.</h3>
 <p>Figure 1. Swift Parrot Occupancy Model. Model prediction with 95% confidence intervals of distance from forest edge and season (new vs established boxes) on Swift Parrot occupancy probability of bird boxes. Data points displayed in figure. Yellow line represents predicted occupancy by forest distance in the “new” year (2016), and the blue line for the “established” year (2019) Data from Stojanovic, Dejan et al.&nbsp;(2021). Do nest boxes breed the target species or its competitors? A case study of a critically endangered bird [Dataset]. Dryad.</p>
 </section>
-</section>
-<section id="j." class="level2">
-<h2 class="anchored" data-anchor-id="j.">j.</h2>
+<section id="j." class="level3">
+<h3 class="anchored" data-anchor-id="j.">j.</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="ot">&lt;-</span> <span class="fu">ggpredict</span>( <span class="co">#makes a prediction data set using the ggpredict data</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  model1_sp, <span class="co">#uses the model 1 data </span></span>
@@ -472,13 +471,14 @@ edge_distance | Predicted |      95% CI
           900 |      0.08 | -0.05, 0.22</code></pre>
 </div>
 </div>
+</section>
 <section id="k." class="level3">
 <h3 class="anchored" data-anchor-id="k.">k.</h3>
 <p>Based on the model predictions, as distance from the forest edge increases, the probability of a swift parrot occupying that space decreases. Additonally a bird box being established (from a later season) also decreases the probability that a swift parrot will occupy that box, and the combination of both those factors predicts the probability that a box is occupied by a swift parrot (figure 1). Whatsmore in the “new” boxes, boxes placed right at the forest edge had a .51 (95% CI: .37, .66) probabiltiy of being occupied by parrots compared to just a .05 (95% CI: -.09, .19) for boxes placed 900 meters from the forest edge. In the “established” boxes, boxes at forest edge had a .24 (95% CI: 0.11, 0.36) proability of being occupied compared to .08 (-0.05, 0.22) for those 900 meters away. This relationship between distance and occupancy probability can be explained by the Tree Martins who are more likely to occupy boxes farther from forest edge thus decreasing availability of nest boxes for Swift Parrots farther out.</p>
 </section>
 </section>
 <section id="affective-and-exploratory-visualizations" class="level2">
-<h2 class="anchored" data-anchor-id="affective-and-exploratory-visualizations">4. Affective and exploratory visualizations</h2>
+<h2 class="anchored" data-anchor-id="affective-and-exploratory-visualizations">4.Affective and exploratory visualizations</h2>
 <section id="a.-3" class="level3">
 <h3 class="anchored" data-anchor-id="a.-3">a.</h3>
 <p>The visualizations are different in terms of data representation as the exploratory representation just attempts to display the overall data trend, whereas the affective visualization aims to display information about the data and convey this information in an engaging way. The exploratory representation just displays the data points collected by predictor variable group so I could explore what the data looked like and its overall trends. The affective visualization also aimed to display the trends between the two groups but aimed to convey differences and similarities between them (such as by using means, standard deviations, etc) and to do so in a way that is visually interesting.</p>

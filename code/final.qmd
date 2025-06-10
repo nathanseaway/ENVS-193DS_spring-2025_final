@@ -6,6 +6,9 @@ format: html
 toc: true
 toc_float: true
 ---
+Nathan Seaway
+
+June 11, 2025
 
 https://github.com/nathanseaway/ENVS-193DS_spring-2025_final.git
 
