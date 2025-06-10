@@ -27,3 +27,5 @@ README.md
 
 
 # Rendered output
+
+[View Final](./code/final.html)
