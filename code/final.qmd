@@ -39,7 +39,7 @@ library(MuMIn)
 
 ```
 
-## 1. Research writing
+## 1.Research writing
 
 ### a.
 
@@ -63,7 +63,7 @@ On average, distance from headwater (strongly/weakly) predicted annual total nit
 
 On average, (location) tend to have (larger/smaller) average nitrogen loads than (other location) (amount difference in kg year-1, 95% CI: \[upper, lower kg/yr ) and (other location) (amount difference in kg year-1, 95% CI: \[upper, lower kg/yr ).
 
-## 2. Data visualization
+## 2.Data visualization
 
 ```{r}
 sst <- read.csv("../data/SST.csv") #reads csv files 
@@ -132,7 +132,7 @@ labs(
 
 ```
 
-## 3. Data analysis
+## 3.Data analysis
 
 ### a.
 The 1s and 0s refer to the binary response variable of either the boxes being designated that value: swift parrot, common starling, empty, or tree martin or not having that variable. So for each observation one of those variables is a 1 and the other are 0.  
@@ -244,7 +244,7 @@ prediction
 ### k.
 Based on the model predictions, as distance from the forest edge increases, the probability of a swift parrot occupying that space decreases. Additonally a bird box being established (from a later season) also decreases the probability that a swift parrot will occupy that box, and the combination of both those factors predicts the probability that a box is occupied by a swift parrot (figure 1). Whatsmore in the "new" boxes, boxes placed right at the forest edge had a .51 (95% CI: .37, .66) probabiltiy of being occupied by parrots compared to just a .05 (95% CI: -.09, .19) for boxes placed 900 meters from the forest edge. In the "established" boxes, boxes at forest edge had a .24 (95% CI: 0.11, 0.36) proability of being occupied compared to .08 (-0.05, 0.22) for those 900 meters away. This relationship between distance and occupancy probability can be explained by the Tree Martins who are more likely to occupy boxes farther from forest edge thus decreasing availability of nest boxes for Swift Parrots farther out. 
 
-## 4. Affective and exploratory visualizations
+## 4.Affective and exploratory visualizations
 
 ### a.
 The visualizations are different in terms of data representation as the exploratory representation just attempts to display the overall data trend, whereas the affective visualization aims to display information about the data and convey this information in an engaging way. The exploratory representation just displays the data points collected by predictor variable group so I could explore what the data looked like and its overall trends. The affective visualization also aimed to display the trends between the two groups but aimed to convey differences and similarities between them (such as by using means, standard deviations, etc) and to do so in a way that is visually interesting. 
