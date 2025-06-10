@@ -3,8 +3,8 @@ title: "Env S 193DS Final"
 Author: "Nathan Seaway"
 Date: "June 11, 2025"
 format: html
-  toc: true
-    toc_float: true
+toc: true
+toc_float: true
 ---
 
 https://github.com/nathanseaway/ENVS-193DS_spring-2025_final.git
@@ -232,7 +232,7 @@ ggplot(data = nest_boxes_clean, #plots the data using this data frame
 ### i. 
 Figure 1. Swift Parrot Occupancy Model. Model prediction with 95% confidence intervals of distance from forest edge and season (new vs established boxes) on Swift Parrot occupancy probability of bird boxes. Data points displayed in figure. Yellow line represents predicted occupancy by forest distance in the "new" year (2016), and the blue line for the "established" year (2019) Data from Stojanovic, Dejan et al. (2021). Do nest boxes breed the target species or its competitors? A case study of a critically endangered bird [Dataset]. Dryad.
 
-## j. 
+### j. 
 ```{r}
 prediction <- ggpredict( #makes a prediction data set using the ggpredict data
   model1_sp, #uses the model 1 data 
