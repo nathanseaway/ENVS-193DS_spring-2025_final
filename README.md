@@ -14,14 +14,16 @@ Stojanovic, Dejan; Owens, Giselle; Young, Catherine et al. (2021). Do nest boxes
 # Data and file overview
 File Structure:
 
-ENVS-193DS_spring-2025_final.Rproj      # R project file
-README.md                               # Project description
-├── code                                # Code folder
-│   ├── final.qmd                       # Final Quarto document
-│   └── final_files/                    # Supporting files for final.qmd
-├── data                                # Data folder
-│   ├── nest_boxes.csv                  # Nest box data
-│   └── SST.csv                         # Sea surface temperature data
+ENVS-193DS_spring-2025_final.Rproj     
+README.md                              
+
+├── code                                
+│   ├── final.qmd                     
+│   └── final_files/                    
+├── data                               
+│   ├── nest_boxes.csv                 
+│   └── SST.csv                        
+
 
 
 # Rendered output
